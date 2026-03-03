@@ -1,0 +1,25 @@
+{
+  "name": "ubimarket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristian Perez, Evelyn Dayana, Adriana Barahona, Marcos Granados y Jonathan Ortiz",
+  "license": "ISC",
+  "description": "Página web para publicidad de la empresa UbiMarket S.A de C.V",
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.18.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonGaOR/UbiMarket.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JonGaOR/UbiMarket/issues"
+  },
+  "homepage": "https://github.com/JonGaOR/UbiMarket#readme"
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros - Ubimarket</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+     <a href="/" class="btn-inicio" title="Volver al inicio">
+         Inicio
+    </a>
+    <section class="sobre-section">
+        <div class="container">
+
+            <div class="card principal">
+                <h1>Sobre Nosotros</h1>
+                <p>Somos Ubimarket, una plataforma dedicada a conectar compradores con vendedores locales y de cualquier distancia, ofreciendo una experiencia de compra única, accesible y confiable.</p>
+            </div>
+
+            <!-- Tarjeta Misión -->
+            <div class="card mision">
+                <h2>Misión</h2>
+                <p>Conectar a compradores y vendedores de manera sencilla, segura y eficiente, permitiendo descubrir y adquirir productos tanto de vendedores cercanos como de cualquier parte, fortaleciendo el comercio local y ofreciendo opciones accesibles a todos.</p>
+            </div>
+
+            <!-- Tarjeta Visión -->
+            <div class="card vision">
+                <h2>Visión</h2>
+                <p>Ser la plataforma líder que transforme la forma de comprar y vender, donde la distancia no sea una barrera y cada transacción impulse el crecimiento de emprendedores y comunidades en una economía más conectada y equitativa.</p>
+            </div>
+
+        </div>
+    </section>
+    <script>
+        const btnInicio = document.querySelector('.btn-inicio');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                btnInicio.classList.add('visible');
+            } else {
+                btnInicio.classList.remove('visible');
+            }
+        });
+    </script>
+
+</body>
+</html>
+
+

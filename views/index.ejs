@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UbiMarket</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  
+  
+</head>
+<body>
+
+<div class="background"></div>
+<div class="particles"></div>
+
+<header id="header">
+  <div class="logo">Ubimarket<span></span></div>
+  
+  <nav>
+    <a href="html/servicios">servicios</a>
+    <a href="html/centro de ayuda.html"> Centro de ayuda</a>
+  </nav>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="hero-content">
+    <h1>Compra y vende lo que quieras,<br>donde quieras</h1>
+    <p> Ubimarket lo que buscas, donde estes </p>
+    
+    <div class="hero-buttons">
+      <a href="html/sobrenosotros.html" class="btn btn-primary">Sobre nosotros </a>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+
+  <h2 class="section-title">¿SOBRE UBIMARKET ?</h2>
+  
+  <div class="grid">
+    <div class="card">
+      <h3> vendedor </h3>
+      <p> puedes subir tus productos a nuestra aplicacion movil con GPS incluido con puntos de encuentro.</p>
+    </div>
+    
+    <div class="card">
+      <h3>Informacion </h3>
+      <p> Somos una empresa de distribucion de emprendimientos, diversos catalogos de productos de todo tipo a nivel nacional.</p>
+    </div>
+    
+    <div class="card">
+      <h3>comprador</h3>
+      <p> podras ver articulos sercanos dependiendo de tu necesidad a precios diversos desplegados en todo el pais.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Ubimarket Todos los derechos reservados  Hecho con pasión para compradores y vendedores</p>
+</footer>
+
+<script>
+  // Efecto header al hacer scroll
+  window.addEventListener('scroll', () => {
+    const header = document.getElementById('header');
+    if (window.scrollY > 80) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+</script>
+
+</body>
+</html>

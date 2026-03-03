@@ -1,0 +1,183 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0a0e17;
+    color: #e2e8f0;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+
+.btn-back {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 100;
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #1e40af, #1e3a8a);
+    color: white;
+    font-weight: 600;
+    font-size: 1.05rem;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 1px solid rgba(255,255,255,0.12);
+    box-shadow: 0 6px 20px rgba(30,64,175,0.3);
+    transition: all 0.3s ease;
+}
+
+.btn-back:hover {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(59,130,246,0.4);
+}
+
+/* Sección principal */
+.help-center {
+    padding: 140px 0 100px;
+    background: linear-gradient(to bottom, #0f172a, #0a0e17);
+}
+
+/* Encabezado */
+.header-section {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+h1 {
+    font-size: clamp(2.6rem, 6vw, 4.2rem);
+    font-weight: 800;
+    background: linear-gradient(90deg, #93c5fd, #60a5fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    color: #cbd5e1;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+/* Bloque de contacto + info */
+.contact-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+@media (max-width: 850px) {
+    .contact-block {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Tarjetas */
+.contact-card,
+.info-card {
+    background: rgba(30, 41, 59, 0.65);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(96, 165, 250, 0.18);
+    border-radius: 16px;
+    padding: 2.5rem;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.4);
+}
+
+h2 {
+    font-size: 2rem;
+    color: #93c5fd;
+    margin-bottom: 1.8rem;
+}
+
+/* Items de contacto */
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+    margin-bottom: 1.8rem;
+}
+
+.icon {
+    font-size: 2.2rem;
+    min-width: 50px;
+}
+
+.contact-item strong {
+    display: block;
+    font-size: 1.15rem;
+    color: #e2e8f0;
+    margin-bottom: 0.3rem;
+}
+
+.contact-item p {
+    color: #cbd5e1;
+}
+
+/* Categorías */
+.categories {
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+.categories li {
+    padding: 1rem 1.2rem;
+    background: rgba(59, 130, 246, 0.08);
+    border-radius: 10px;
+    margin-bottom: 0.9rem;
+    font-size: 1.1rem;
+    transition: all 0.2s ease;
+}
+
+.categories li:hover {
+    background: rgba(59, 130, 246, 0.18);
+    transform: translateX(6px);
+}
+
+/* Nota pie de página */
+.footer-note {
+    text-align: center;
+    margin-top: 6rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(96,165,250,0.1);
+    color: #94a3b8;
+    font-size: 0.95rem;
+}
+
+/* Responsive final */
+@media (max-width: 600px) {
+    .help-center {
+        padding: 100px 0 80px;
+    }
+
+    .btn-back {
+        top: 20px;
+        left: 20px;
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+    }
+}
