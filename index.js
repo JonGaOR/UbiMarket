@@ -3,6 +3,8 @@ const path = require('path');
 const mysql = require('mysql2');
 const app = express();
 
+const port = process.env.PORT || 3000;
+
 app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
@@ -15,7 +17,7 @@ app.get('/', (req, res) => {
 
 })
 
-app.listen(3000, () =>{
-    console.log("Servidor inicializado en http://localhost:3000")
-})
+app.listen(port, () => {
+    console.log(`Servidor inicializado en puerto ${port}`);
+});
 
