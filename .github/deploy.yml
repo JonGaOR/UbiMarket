@@ -1,0 +1,17 @@
+name: 🚀 Auto Deploy UbiMarket
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔔 Trigger cPanel API
+        run: |
+          curl -u "${{ secrets.CPANEL_USER }}:${{ secrets.CPANEL_PASSWORD }}" \
+          "https://server305.web-hosting.com:2083/execute/VersionControl/update?repository_root=/home/ubimxghu/UbiMarket"
+          
+          curl -u "${{ secrets.CPANEL_USER }}:${{ secrets.CPANEL_PASSWORD }}" \
+          "https://server305.web-hosting.com:2083/execute/VersionControl/deployment?repository_root=/home/ubimxghu/UbiMarket"
