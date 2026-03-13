@@ -158,7 +158,8 @@
     
     .features {
       padding: 12rem 5% 8rem;
-      background: linear-gradient(to bottom,#D4A017,#B8860B);
+      /* background: linear-gradient(to bottom,#D4A017,#B8860B); */
+      background: #00000019;
       color: #73737596
 ;
     }
