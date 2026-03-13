@@ -35,8 +35,6 @@
     .background {
       position: fixed;
       inset: 0;
-      background: radial-gradient(circle at 20% 30%, rgba(59, 246, 75, 0.08) 0%, transparent 40%),
-                  radial-gradient(circle at 80% 70%, rgba(105, 247, 87, 0.06) 0%, transparent 50%);
       pointer-events: none;
       z-index: -2;
     }
@@ -127,7 +125,7 @@
     }
 
     .btn-outline:hover {
-      background: rgba(100, 116, 139, 0.12);
+      background: black;
       border-color: #121213;
     }
 
@@ -176,7 +174,7 @@
       padding: 12rem 5% 8rem;
       /* background: linear-gradient(to bottom,#D4A017,#B8860B); */
       background: #00000019;
-      color: #73737596
+      color: black
 ;
     }
 
@@ -185,7 +183,7 @@
       font-size: 3.2rem;
       font-weight: 700;
       margin-bottom: 4rem;
-      background: linear-gradient(90deg, #484949, #537753);
+      background: black;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       color: #000;
@@ -229,7 +227,7 @@
       padding: 5rem 5% 3rem;
       text-align: center;
       border-top: 1px solid rgb(106, 109, 106);
-      color: #363a36;
+      color: black;
       font-size: 0.95rem;
     }
 
