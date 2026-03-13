@@ -83,7 +83,7 @@
     }
 
     nav a {
-      color: #a67c00,;
+      color: #a67c00;
       text-decoration: none;
       margin-left: 2.2rem;
       font-weight: 500;
@@ -148,7 +148,7 @@
       font-size: clamp(3.2rem, 8vw, 5.8rem);
       font-weight: 700;
       margin-bottom: 1.5rem;
-      background: linear-gradient(90deg, #3c3d3d, #383738, #404140);
+      background: black;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       line-height: 1.05;
