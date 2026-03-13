@@ -9,7 +9,15 @@
       font-family: 'Inter', system-ui, -apple-system, sans-serif;
       /* background: linear-gradient(to right,#D4A017 0%,#B8860B 30%, #000000 65%); */
       /* background-color: #98FB98; */
-      background: linear-gradient(to right,#FFD700 ,#D4A017);
+      /* background: linear-gradient(to right,#FFD700 ,#D4A017); */
+      background: linear-gradient(
+        45deg, 
+        #bf953f, 
+        #fcf6ba, 
+        #b38728, 
+        #fbf5b7, 
+        #aa771c
+      );
       color: #000;
       overflow-x: hidden;
     }
@@ -172,6 +180,7 @@
       background: linear-gradient(90deg, #484949, #537753);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      color: #000;
     }
 
     .grid {
