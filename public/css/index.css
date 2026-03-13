@@ -9,7 +9,7 @@
       font-family: 'Inter', system-ui, -apple-system, sans-serif;
       /* background: linear-gradient(to right,#D4A017 0%,#B8860B 30%, #000000 65%); */
       /* background-color: #98FB98; */
-      background: linear-gradient(to bottom,#FFD700 ,#D4A017);
+      background: linear-gradient(to right,#FFD700 ,#D4A017);
       color: #73737596;
       overflow-x: hidden;
     }
