@@ -76,14 +76,14 @@
     .logo {
       font-size: 1.8rem;
       font-weight: 700;
-      background: linear-gradient(90deg, #a67c00, #734f1b);
+      background: linear-gradient(90deg, #d4af37, #a67c00);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       letter-spacing: -0.5px;
     }
 
     nav a {
-      color: #a67c00;
+      color: #d4af37;
       text-decoration: none;
       margin-left: 2.2rem;
       font-weight: 500;
@@ -107,7 +107,7 @@
     }
 
     .btn-primary {
-      background: linear-gradient(90deg, #3bf654, #6f6f70);
+      background: #734f1b;
       color: black;
       border: solid 1px rgb(20, 19, 19);
       box-shadow: 0 8px 25px rgb(54, 54, 54);
@@ -215,11 +215,11 @@
     .card h3 {
       font-size: 1.55rem;
       margin-bottom: 1rem;
-      color: #0edd29;
+      color: black;
     }
 
     .card p {
-      color: #0cf03e;
+      color: black;
       font-size: 1.03rem;
     }
 
