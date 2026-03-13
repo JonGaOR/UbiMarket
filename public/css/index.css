@@ -7,9 +7,8 @@
 
     body {
       font-family: 'Inter', system-ui, -apple-system, sans-serif;
-      background: linear-gradient(to right,#D9BB9B 0%,#14ff10 60%);
+      background: linear-gradient(to right,#ffffff 0%,#ff8000 60%);
       color: #73737596;
-      line-height: 1.6;
       overflow-x: hidden;
     }
     
