@@ -6,6 +6,17 @@
     --dorado: #C29947;
 }
 
+@font-face {
+  font-family: 'Saira stencil';
+  src: url('../fonts/SairaStencil-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.eslogan{
+    font-family: 'Saira stencil';
+}
+
 a{
     color: var(--blanco);
     text-decoration: none;
