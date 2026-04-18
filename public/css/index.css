@@ -46,7 +46,7 @@ header{
     width: 95%;
     height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
     color: var(--blanco);
 }
@@ -70,7 +70,7 @@ header{
 
 .cont-menu-amburguesa{
     grid-area: cma;
-    width: 75%;
+    width: 60%;
     height: auto;
     display: flex;
     justify-content: center;
