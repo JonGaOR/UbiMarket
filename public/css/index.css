@@ -19,13 +19,13 @@ img, svg{
 
 header{
     grid-area: cab;
-    height: 10%;
+    height: 15%;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: auto;
     grid-template-areas: 
-    'ces ces ces .   .   .   cma';
+    'ces ces ces ces .   .   cma';
     position: sticky;
     top: 0;
     z-index: 100;
@@ -57,7 +57,7 @@ header{
 }
 
 .tlt-ubimarket{
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 
