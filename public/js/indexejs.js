@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const btnAmburguesa = document.getElementById('menu-amburguesa');
   const menuMovil = document.getElementById('menu-movil');
+  const header = document.querySelector('header');
 
   const iconoAmburguesa = document.getElementById('hamburger-icon');
   const cerrarIcono = document.getElementById('close-icon');
