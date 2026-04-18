@@ -48,13 +48,16 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size: 1.5em;
     color: var(--blanco);
 }
 
 .cont-img-icono{
     width: 35%;
     height: auto;
+}
+
+.tlt-ubimarket{
+    font-size: 1em;
 }
 
 
