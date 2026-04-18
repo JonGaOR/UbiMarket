@@ -32,6 +32,7 @@ main{
     'des'
     'enl'
     'pie';
+    color: var(--blanco);
 }
 
 header{
@@ -64,6 +65,11 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.cont-img-icono{
+    width: 25%;
+    height: auto;
 }
 
 
