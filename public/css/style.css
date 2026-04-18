@@ -14,11 +14,27 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Space grotesk';
+  src: url('../fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 .eslogan{
     font-family: 'Saira stencil';
+}
+
+.txt-inicio{
+    font-family: 'Space grotesk';
 }
 
 a{
     color: var(--blanco);
     text-decoration: none;
+}
+
+.destacado{
+    color: var(--degradado);
 }

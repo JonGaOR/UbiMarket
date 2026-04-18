@@ -113,6 +113,11 @@ header{
     align-items: start;
 }
 
+
+
+
+
+
 main{
     height: auto;
     background: var(--negro);
@@ -137,7 +142,76 @@ main{
 
 .inicio{
     grid-area: ini;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.cont-seccion-inicio{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-tlt-inicio{
+    font-size: 2em;
+}
+
+.cont-txt-inicio{
+    font-size: 0.8em;
+}
+
+.cont-btn-descargar-inicio{
+    width: 100%;
+    background: var(--degradado);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.cont-svg-descargar-inicio{
+    width: 10%;
+    height: auto;
+}
+
+.txt-descargar-inicio{
+    color: var(--negro);
+    font-size: 0.6em;
+}
+
+.cont-btn-demo{
+    width: 100%;
+    background: var(--negro);
+    border: 1px solid var(--dorado);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.txt-demo{
+    font-size: 0.6em;
+    color: var(--dorado);
+}
+
+
+.cont-svg-demo{
+    width: 10%;
+    height: auto;
+}
+
+.img-inicio{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 10px var(--dorado);
+    margin-top: 20px;
+}
+
+
+
+
 
 .preferirnos{
     grid-area: pre;
