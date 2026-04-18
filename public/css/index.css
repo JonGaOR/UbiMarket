@@ -157,6 +157,7 @@ main{
 
 .cont-tlt-inicio{
     font-size: 1.6em;
+    margin: 0;
 }
 
 .cont-txt-inicio{
@@ -211,7 +212,8 @@ main{
     height: auto;
     border-radius: 20px;
     box-shadow: 0 0 10px var(--sombra), 0 50px 10px var(--sombra), 0 -50px 10px var(--sombra);
-    margin-top: 20px;
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
 
 
