@@ -24,7 +24,6 @@ main{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    'cab'
     'ini'
     'pre'
     'inf'
@@ -37,6 +36,7 @@ main{
 
 header{
     grid-area: cab;
+    height: 10%;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -100,6 +100,10 @@ header{
     background: var(--negro);
     display: none;
     z-index: 90;
+}
+
+.nav-pags-movil{
+    list-style: none;
 }
 
 .cont-menu-movil.show {
