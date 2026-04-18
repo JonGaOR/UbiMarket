@@ -22,7 +22,7 @@
   font-display: swap;
 }
 
-.eslogan{
+.eslogan, .tlt-inicio{
     font-family: 'Saira stencil';
 }
 
@@ -36,5 +36,5 @@ a{
 }
 
 .destacado{
-    color: var(--degradado);
+    color: var(--dorado);
 }
