@@ -1,0 +1,12 @@
+:root{
+    --degradado: linear-gradient(to right, #F9D976, #8A6B2D);
+    --negro: #0F0F0F;
+    --blanco: #FFFFFF;
+    --huezo: #EFEFEF;
+    --dorado: #C29947;
+}
+
+a{
+    color: var(--blanco);
+    text-decoration: none;
+}
