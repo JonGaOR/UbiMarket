@@ -25,7 +25,7 @@ header{
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: auto;
     grid-template-areas: 
-    'ces ces ces ces .   .   cma';
+    'ces ces ces .   .   .   cma';
     position: sticky;
     top: 0;
     z-index: 100;
@@ -46,7 +46,7 @@ header{
     width: 95%;
     height: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     color: var(--blanco);
 }
