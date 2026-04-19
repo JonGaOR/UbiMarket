@@ -474,11 +474,12 @@ main{
 
 
 .descargar{
-    height: 80%;
     grid-area: des;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 80px 0;
 }
 
 .cont-descargar{
@@ -497,6 +498,7 @@ main{
 
 .txt-descargar{
     font-size: 1em;
+    text-align: center;
     color: var(--gris);
 }
 
@@ -509,6 +511,16 @@ main{
     justify-content: center;
     align-items: center;
     padding: 10px 0;
+}
+
+.cont-btn-descargar:hover{
+    box-shadow: 0 0 10px var(--dorado), 0 0 10px var(--dorado);
+    transition: 500ms;
+}
+
+.cont-btn-descargar:not(:hover){
+    box-shadow: none;
+    transition: 500ms;
 }
 
 .cont-svg-descargar{
