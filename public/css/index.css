@@ -86,10 +86,11 @@ header{
 
 .cont-menu-amburguesa{
     grid-area: cma;
-    width: 40%;
+    width: 60%;
     max-width: 40px;
     height: auto;
     max-height: 100%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
