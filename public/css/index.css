@@ -672,6 +672,7 @@ main{
 .contacto{
     font-size: 0.8em;
     color: var(--gris);
+    margin: 0;
 }
 
 
