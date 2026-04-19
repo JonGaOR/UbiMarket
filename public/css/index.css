@@ -670,6 +670,41 @@ footer{
 
 
 
+@media (min-width: 650px){
+    .cont-seccion-inicio{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'cti cti cti cti cti cti cti'
+        'cxi cxi cxi cxi cxi cxi cxi'
+        'bdi bdi bdi btd btd .   .  '
+        'imi imi imi imi imi imi imi';
+    }
+
+    .cont-tlt-inicio{
+        grid-area: cti;
+    }
+
+    .cont-txt-inicio{
+        grid-area: cxi;
+    }
+
+    .cont-btn-descargar-inicio{
+        grid-area: bdi;
+    }
+
+    .cont-btn-demo{
+        grid-area: btd;
+    }
+
+    .img-inicio{
+        grid-area: imi;
+    }
+}
+
+
+
 
 
 @media (min-width: 768px) {
