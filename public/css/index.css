@@ -23,8 +23,6 @@ img, svg{
 header{
     height: 15%;
     width: 100%;
-    min-height: 15vh; 
-    max-height: 15vh;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 1fr;
@@ -688,7 +686,7 @@ footer{
 @media (min-width: 650px){
 
     .menu-pags {
-    display: none;
+        display: none;
     }
 
     .cont-menu-amburguesa{
@@ -736,21 +734,30 @@ footer{
 
 
 
-@media (min-width: 768px) {
-  .menu-pags {
-    display: block;
-  }
+@media (min-width: 800px) {
+    header{
+        grid-template-areas: 
+        'ces ces .   mnp mnp mnp mnp';
+    }
+    .menu-pags {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   
-  .nav-pags {
-    display: flex;
-    list-style: none;
-  }
+    .nav-pags {
+        width: 95%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+    }
 
-  .cont-menu-amburguesa{
-    display: none;
-  }
+    .cont-menu-amburguesa{
+        display: none;
+    }
 
-  .cont-menu-movil.show{
-    display: none;
-  }
+    .cont-menu-movil.show{
+        display: none;
+    }
 }
