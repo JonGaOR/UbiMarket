@@ -451,6 +451,13 @@ main{
     width: 95%;
     display: flex;
     flex-direction: column;
+    justify-content: start;
+}
+
+.cont-cuerpo-estadisticas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
 }
 
@@ -832,5 +839,47 @@ footer{
 
     .cont-contacto{
         justify-content: start;
+    }
+}
+
+
+
+
+
+@media (min-width:1000px){
+    header{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        'ini ini'
+        'pre pre'
+        'inf est'
+        'des des'
+        'enl enl'
+        'pie pie';
+        gap: 30px;
+    }
+
+    .cont-seccion-inicio{
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-areas: 
+        'cti cti cti cti cti imi imi imi imi imi'
+        'cxi cxi cxi cxi cxi imi imi imi imi imi'
+        'bdi bdi bdi btd btd imi imi imi imi imi';
+        gap: 20px;
+    }
+
+    .cont-preferirnos{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+        'inp inp inp inp'
+        'it1 it2 it3 it4';
+        gap: 30px;
+    }
+
+    .cont-estadisticas{
+        flex-direction: column-reverse;
     }
 }
