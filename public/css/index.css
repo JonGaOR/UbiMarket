@@ -28,6 +28,27 @@ img, svg{
     height: auto;
 }
 
+.cont-tlt-inicio{
+    font-size: var(--movil-txt-1);
+}
+
+.tlt-ubimarket{
+    font-size: var(--movil-txt-2);
+}
+
+.cont-txt-inicio, .nav-pags-movil, .txt-descargar-inicio, .txt-demo, .subtlt-preferirnos, .txt-info, .txt-estadisticas, .txt-descargar, .txt-btn-descargar{
+    font-size: var(--movil-txt-3);
+}
+
+.txt-item-preferirnos, .txt-punto-info, .txt-item-puntuacion-estadisticas, .txt-eslogan-enlaces, .enlace-rapido, .contacto, .txt-footer{
+    font-size: var(--movil-txt-4);
+}
+
+
+
+
+
+
 header{
     height: 15%;
     width: 100%;
@@ -80,7 +101,6 @@ header{
 }
 
 .tlt-ubimarket{
-    font-size: var(--movil-txt-3);
     white-space: nowrap;
 }
 
@@ -139,7 +159,6 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: start;
-    font-size: var(--movil-txt-5);
 }
 
 .nav-pags-movil a{
@@ -196,12 +215,10 @@ main{
 }
 
 .cont-tlt-inicio{
-    font-size: var(--movil-txt-1);
     margin: 0;
 }
 
 .cont-txt-inicio{
-    font-size: var(--movil-txt-3);
     color: var(--gris);
 }
 
@@ -223,7 +240,6 @@ main{
 
 .txt-descargar-inicio{
     color: var(--negro);
-    font-size: var(--movil-txt-5);
 }
 
 .cont-btn-demo{
@@ -238,7 +254,6 @@ main{
 }
 
 .txt-demo{
-    font-size: var(--movil-txt-5);
     color: var(--dorado);
 }
 
@@ -292,7 +307,6 @@ main{
 }
 
 .subtlt-preferirnos{
-    font-size: var(--movil-txt-5);
     color: var(--gris);
     text-align: center;
     margin: 0 auto;
@@ -355,7 +369,6 @@ main{
 }
 
 .txt-item-preferirnos{
-    font-size: var(--movil-txt-6);
     color: var(--gris);
     text-align: start;
 }
@@ -387,7 +400,6 @@ main{
 }
 
 .txt-info{
-    font-size: var(--movil-txt-5);
     color: var(--gris);
 }
 
@@ -430,7 +442,6 @@ main{
 .txt-punto-info{
     width: 85%;
     height: auto;
-    font-size: var(--movil-txt-6);
     color: var(--gris);
 }
 
@@ -474,7 +485,6 @@ main{
 }
 
 .txt-estadisticas{
-    font-size: var(--movil-txt-5);
     color: var(--gris);
 }
 
@@ -501,7 +511,6 @@ main{
 }
 
 .txt-item-puntuacion-estadisticas{
-    font-size: var(--movil-txt-6);
     color: var(--gris);
 }
 
@@ -542,7 +551,6 @@ main{
 }
 
 .txt-descargar{
-    font-size: var(--movil-txt-5);
     text-align: center;
     color: var(--gris);
 }
@@ -578,7 +586,6 @@ main{
 }
 
 .txt-btn-descargar{
-    font-size: var(--movil-txt-5);
     color: var(--negro);
 }
 
@@ -629,7 +636,6 @@ main{
 }
 
 .txt-eslogan-enlaces{
-    font-size: var(--movil-txt-6);
     color: var(--gris);
 }
 
@@ -663,7 +669,6 @@ main{
 }
 
 .enlace-rapido{
-    font-size: var(--movil-txt-6);
     color: var(--gris);
     margin-left: 0;
 }
@@ -687,7 +692,6 @@ main{
 }
 
 .contacto{
-    font-size: var(--movil-txt-6);
     color: var(--gris);
     margin: 0;
 }
@@ -711,7 +715,6 @@ footer{
 }
 
 .txt-footer{
-    font-size: var(--movil-txt-6);
     color: var(--gris);
 }
 
