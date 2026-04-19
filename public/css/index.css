@@ -257,6 +257,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .item-info-preferirnos:hover{
@@ -280,7 +281,7 @@ main{
 }
 
 .cont-icono-item-preferirnos{
-    width: 20%;
+    width: 15%;
     height: auto;
     background: var(--doradoClaro);
     border-radius: 5px;
