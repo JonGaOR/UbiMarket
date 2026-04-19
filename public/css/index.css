@@ -7,6 +7,14 @@
     --dorado: #C29947;
     --sombra: #c2994705;
     --doradoClaro: #FFE8A3;
+
+
+    --movil-txt-1: 30px;
+    --movil-txt-2: 20px;
+    --movil-txt-3: 15px;
+    --movil-txt-4: 10px;
+    --movil-txt-5: 8px;
+    --movil-txt-6: 6px;
 }
 
 body, main{
@@ -72,7 +80,7 @@ header{
 }
 
 .tlt-ubimarket{
-    font-size: clamp(1.1rem, 2.5vw, 1.8rem);
+    font-size: var(--movil-txt-3);
     white-space: nowrap;
 }
 
@@ -131,7 +139,7 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: start;
-    font-size: 0.9em;
+    font-size: var(--movil-txt-5);
 }
 
 .nav-pags-movil a{
@@ -188,12 +196,12 @@ main{
 }
 
 .cont-tlt-inicio{
-    font-size: 1.6em;
+    font-size: var(--movil-txt-1);
     margin: 0;
 }
 
 .cont-txt-inicio{
-    font-size: 1em;
+    font-size: var(--movil-txt-5);
     color: var(--gris);
 }
 
@@ -215,7 +223,7 @@ main{
 
 .txt-descargar-inicio{
     color: var(--negro);
-    font-size: 0.9em;
+    font-size: var(--movil-txt-5);
 }
 
 .cont-btn-demo{
@@ -230,7 +238,7 @@ main{
 }
 
 .txt-demo{
-    font-size: 0.9em;
+    font-size: var(--movil-txt-5);
     color: var(--dorado);
 }
 
@@ -278,13 +286,13 @@ main{
 }
 
 .tlt-preferirnos{
-    font-size: 2em;
+    font-size: var(--movil-txt-2);
     margin: 0 auto;
     text-align: center;
 }
 
 .subtlt-preferirnos{
-    font-size: 1em;
+    font-size: var(--movil-txt-5);
     color: var(--gris);
     text-align: center;
     margin: 0 auto;
@@ -343,11 +351,11 @@ main{
 
 .tlt-item-preferirnos{
     color: var(--dorado);
-    font-size: 1.2em;
+    font-size: var(--movil-txt-3);
 }
 
 .txt-item-preferirnos{
-    font-size: 0.8em;
+    font-size: var(--movil-txt-6);
     color: var(--gris);
     text-align: start;
 }
@@ -375,11 +383,11 @@ main{
 }
 
 .tlt-info{
-    font-size: 1.4em;
+    font-size: var(--movil-txt-3);
 }
 
 .txt-info{
-    font-size: 1em;
+    font-size: var(--movil-txt-5);
     color: var(--gris);
 }
 
@@ -422,7 +430,7 @@ main{
 .txt-punto-info{
     width: 85%;
     height: auto;
-    font-size: 0.8em;
+    font-size: var(--movil-txt-6);
     color: var(--gris);
 }
 
@@ -462,11 +470,11 @@ main{
 }
 
 .tlt-estadisticas{
-    font-size: 1.4em;
+    font-size: var(--movil-txt-3);
 }
 
 .txt-estadisticas{
-    font-size: 1em;
+    font-size: var(--movil-txt-5);
     color: var(--gris);
 }
 
@@ -488,12 +496,12 @@ main{
 }
 
 .puntuacion-grande-estadisticas{
-    font-size: 1.5em;
+    font-size: var(--movil-txt-2);
     color: var(--dorado);
 }
 
 .txt-item-puntuacion-estadisticas{
-    font-size: 0.8em;
+    font-size: var(--movil-txt-6);
     color: var(--gris);
 }
 
@@ -530,11 +538,11 @@ main{
 
 .tlt-descargar{
     text-align: center;
-    font-size: 1.4em;
+    font-size: var(--movil-txt-3);
 }
 
 .txt-descargar{
-    font-size: 1em;
+    font-size: var(--movil-txt-5);
     text-align: center;
     color: var(--gris);
 }
@@ -570,7 +578,7 @@ main{
 }
 
 .txt-btn-descargar{
-    font-size: 0.9em;
+    font-size: var(--movil-txt-5);
     color: var(--negro);
 }
 
@@ -617,11 +625,11 @@ main{
 }
 
 .nombre-eslogan-enlaces{
-    font-size: 1em;
+    font-size: var(--movil-txt-4);
 }
 
 .txt-eslogan-enlaces{
-    font-size: 0.8em;
+    font-size: var(--movil-txt-6);
     color: var(--gris);
 }
 
@@ -632,7 +640,7 @@ main{
 }
 
 .tlt-enlaces-rapidos{
-    font-size: 1.2em;
+    font-size: var(--movil-txt-4);
     margin: 0;
 }
 
@@ -655,7 +663,7 @@ main{
 }
 
 .enlace-rapido{
-    font-size: 0.8em;
+    font-size: var(--movil-txt-6);
     color: var(--gris);
     margin-left: 0;
 }
@@ -668,7 +676,7 @@ main{
 }
 
 .tlt-contacto-enlaces{
-    font-size: 1.2em;
+    font-size: var(--movil-txt-4);
     margin: 0;
 }
 
@@ -679,7 +687,7 @@ main{
 }
 
 .contacto{
-    font-size: 0.8em;
+    font-size: var(--movil-txt-6);
     color: var(--gris);
     margin: 0;
 }
@@ -703,7 +711,7 @@ footer{
 }
 
 .txt-footer{
-    font-size: 0.7em;
+    font-size: var(--movil-txt-6);
     color: var(--gris);
 }
 
