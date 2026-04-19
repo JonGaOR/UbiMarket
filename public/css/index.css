@@ -40,6 +40,7 @@ header{
     grid-area: ces;
     width: 100%;
     height: auto;
+    max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,6 +76,7 @@ header{
     grid-area: cma;
     width: 60%;
     height: auto;
+    max-height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
