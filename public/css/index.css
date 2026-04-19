@@ -26,20 +26,22 @@ header{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: auto;
+    grid-template-rows: 1fr;
     grid-template-areas: 
     'ces ces ces ces .   .   cma';
+    align-items: center;
     position: sticky;
     top: 0;
     z-index: 100;
     border-bottom: 1px solid var(--dorado);
     background: var(--negro);
+    overflow: hidden;
 }
 
 .cont-eslogan{
     grid-area: ces;
     width: 100%;
-    height: auto;
+    height: 100%;
     max-height: 100%;
     display: flex;
     justify-content: center;
@@ -48,20 +50,31 @@ header{
 
 .eslogan{
     width: 95%;
-    height: auto;
+    height: 100%;
     display: flex;
     justify-content: start;
     align-items: center;
     color: var(--blanco);
+    gap: 10px;
 }
 
 .cont-img-icono{
     width: 35%;
-    height: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-eslogan-inicio{
+    max-height: 70%;
+    width: auto;
+    object-fit: contain;
 }
 
 .tlt-ubimarket{
-    font-size: 1.2em;
+    font-size: clamp(1.1rem, 2.5vw, 1.8rem);
+    white-space: nowrap;
 }
 
 
@@ -75,7 +88,7 @@ header{
 .cont-menu-amburguesa{
     grid-area: cma;
     width: 60%;
-    height: auto;
+    height: 100%;
     max-height: 100%;
     display: flex;
     justify-content: center;
@@ -672,7 +685,7 @@ footer{
 
 
 
-@media (min-width: 600px){
+@media (min-width: 650px){
 
     .menu-pags {
     display: none;
