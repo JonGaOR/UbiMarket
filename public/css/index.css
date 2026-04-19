@@ -333,7 +333,75 @@ main{
 
 .info{
     grid-area: inf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.cont-info{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.tlt-info{
+    font-size: 1.4em;
+}
+
+.txt-info{
+    font-size: 1em;
+    color: var(--gris);
+}
+
+.cont-puntos-info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.puntos-info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont-icono-punto-info{
+    width: 5%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--degradado);
+    border-radius: 50%;
+}
+
+.txt-punto-info{
+    width: 85%;
+    height: auto;
+    font-size: 0.8em;
+    color: var(--gris);
+}
+
+.img-info{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
 
 .estadisticas{
     grid-area: est;
