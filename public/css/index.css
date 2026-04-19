@@ -610,6 +610,13 @@ main{
 
 .lista-enlaces-rapidos a{
     margin-top: 8px;
+    margin-left: 0;
+}
+
+.enlace-rapido{
+    font-size: 0.8em;
+    color: var(--gris);
+    margin-left: 0;
 }
 
 .cont-contacto{
