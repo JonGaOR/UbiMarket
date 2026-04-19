@@ -848,7 +848,7 @@ footer{
 
 @media (min-width:1000px){
     .img-inicio, .img-info, .img-estadisticas{
-        max-width: 450px;
+        max-width: 500px;
         margin: 0 auto;
     }
 
