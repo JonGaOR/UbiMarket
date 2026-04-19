@@ -671,6 +671,11 @@ footer{
 
 
 @media (min-width: 650px){
+
+    .menu-pags {
+    display: none;
+    }
+
     .cont-seccion-inicio{
         display: grid;
         grid-template-columns: repeat(7, 1fr);
@@ -680,6 +685,7 @@ footer{
         'cxi cxi cxi cxi cxi cxi cxi'
         'bdi bdi bdi btd btd .   .  '
         'imi imi imi imi imi imi imi';
+        gap: 20px;
     }
 
     .cont-tlt-inicio{
