@@ -683,6 +683,19 @@ footer{
 
 
 
+
+@media (min-width: 450px){
+    header{
+        grid-template-areas: 
+        'ces ces ces .   .   .   cma';
+    }
+}
+
+
+
+
+
+
 @media (min-width: 650px){
 
     .menu-pags {
