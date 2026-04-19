@@ -21,7 +21,6 @@ img, svg{
 }
 
 header{
-    grid-area: cab;
     height: 15%;
     width: 100%;
     min-height: 15vh; 
