@@ -723,6 +723,7 @@ footer{
 
     .cont-btn-descargar-inicio{
         grid-area: bdi;
+        margin-bottom: 0;
     }
 
     .cont-btn-demo{
