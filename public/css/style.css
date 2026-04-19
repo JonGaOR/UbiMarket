@@ -24,11 +24,11 @@
   font-display: swap;
 }
 
-.eslogan, .cont-tlt-inicio, .tlt-preferirnos, .tlt-item-preferirnos, .tlt-info, .tlt-estadisticas, .puntuacion-grande-estadisticas{
+.eslogan, .cont-tlt-inicio, .tlt-preferirnos, .tlt-item-preferirnos, .tlt-info, .tlt-estadisticas, .puntuacion-grande-estadisticas, .tlt-descargar{
     font-family: 'Saira stencil';
 }
 
-nav, .txt-inicio, .txt-descargar-inicio, .txt-demo, .subtlt-preferirnos, .txt-item-preferirnos, .txt-info, .txt-punto-info, .txt-estadisticas, .txt-item-puntuacion-estadisticas{
+nav, .txt-inicio, .txt-descargar-inicio, .txt-demo, .subtlt-preferirnos, .txt-item-preferirnos, .txt-info, .txt-punto-info, .txt-estadisticas, .txt-item-puntuacion-estadisticas, .txt-descargar{
     font-family: 'Space grotesk';
 }
 
