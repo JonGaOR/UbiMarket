@@ -762,6 +762,7 @@ footer{
 
     .cont-info-preferirnos{
         grid-area: inp;
+        margin: 0 auto;
     }
 
     .item-info-preferirnos{
