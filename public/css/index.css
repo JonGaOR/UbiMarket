@@ -520,6 +520,7 @@ main{
 
 .cont-btn-descargar{
     width: 80%;
+    max-width: 450px;
     height: auto;
     border-radius: 10px;
     background: var(--degradado);
@@ -767,14 +768,19 @@ footer{
         display: none;
     }
 
-    .cont-info-preferirnos{
+    .preferirnos{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-areas: 
+        grid-template-rows: auto;
+        grid-template-areas:
+        'inp inp'
         'it1 it2'
         'it3 it4';
         gap: 25px;
+    }
+
+    .cont-info-preferirnos{
+        grid-area: inp;
     }
 
     .item1{
@@ -799,5 +805,9 @@ footer{
 
     .eslogan-enlaces, .cont-enlaces-rapidos, .cont-contacto{
         width: 30%;
+    }
+
+    .cont-contacto{
+        justify-content: start;
     }
 }
