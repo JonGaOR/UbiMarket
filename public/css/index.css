@@ -574,7 +574,7 @@ main{
 }
 
 .cont-img-eslogan-enlaces{
-    width: 25%;
+    width: 20%;
     height: auto;
 }
 
@@ -643,6 +643,18 @@ main{
 
 footer{
     grid-area: pie;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-footer{
+    text-align: center;
+}
+
+.txt-footer{
+    font-size: 0.7em;
+    color: var(--gris);
 }
 
 
