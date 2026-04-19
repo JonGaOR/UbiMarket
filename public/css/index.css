@@ -848,7 +848,7 @@ footer{
 
 @media (min-width:1000px){
     .img-inicio, .img-info, .img-estadisticas{
-        max-width: 350px;
+        max-width: 450px;
         margin: 0 auto;
     }
 
@@ -877,6 +877,11 @@ footer{
 
     .cont-btn-descargar-inicio, .cont-btn-demo{
         padding: 0;
+    }
+
+    .img-inicio{
+        margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     .cont-preferirnos{
