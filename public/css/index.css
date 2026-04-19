@@ -118,6 +118,10 @@ header{
     font-size: 0.9em;
 }
 
+.nav-pags-movil a{
+    margin-top: 8px;
+}
+
 .nav-pags{
     display: flex;
     width: 95%;
@@ -251,12 +255,14 @@ main{
 }
 
 .tlt-preferirnos{
-    font-size: 1.5em;
+    font-size: 1.6em;
+    text-align: center;
 }
 
 .subtlt-preferirnos{
     font-size: 1em;
     color: var(--gris);
+    text-align: center;
 }
 
 .item-info-preferirnos{
