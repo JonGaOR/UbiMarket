@@ -676,6 +676,14 @@ footer{
     display: none;
     }
 
+    .cont-menu-amburguesa{
+        display: flex;
+    }
+
+    .cont-menu-movil{
+        display: none;
+    }
+
     .cont-seccion-inicio{
         display: grid;
         grid-template-columns: repeat(7, 1fr);
