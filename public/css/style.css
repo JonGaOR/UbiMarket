@@ -40,3 +40,8 @@ a{
 .destacado{
     color: var(--dorado);
 }
+
+hr{
+    background: var(--dorado);
+    width: 100%;
+}
