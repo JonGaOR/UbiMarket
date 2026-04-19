@@ -15,8 +15,13 @@ body, main{
     overflow-x: hidden;
 }
 
-img, svg{
+svg{
     max-width: 100%;
+    height: auto;
+}
+
+img{
+    max-width: 700px;
     height: auto;
 }
 
@@ -847,6 +852,10 @@ footer{
 
 
 @media (min-width:1000px){
+    img{
+        max-width: 350px;
+    }
+
     main{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: auto;
@@ -868,6 +877,10 @@ footer{
         'cxi cxi cxi cxi cxi imi imi imi imi imi'
         'bdi bdi bdi btd btd imi imi imi imi imi';
         gap: 20px;
+    }
+
+    .cont-btn-descargar-inicio, .cont-btn-demo{
+        padding: 0;
     }
 
     .cont-preferirnos{
