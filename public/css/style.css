@@ -4,6 +4,8 @@
     --blanco: #FFFFFF;
     --huezo: #EFEFEF;
     --dorado: #C29947;
+    --sombra: #c2994705;
+    --doradoClaro: #FFE8A3;
 }
 
 @font-face {
@@ -22,11 +24,11 @@
   font-display: swap;
 }
 
-.eslogan, .cont-tlt-inicio{
+.eslogan, .cont-tlt-inicio, .tlt-preferirnos, .tlt-item-preferirnos{
     font-family: 'Saira stencil';
 }
 
-.txt-inicio, .txt-descargar-inicio, .txt-demo{
+.txt-inicio, .txt-descargar-inicio, .txt-demo, .subtlt-preferirnos, .txt-item-preferirnos{
     font-family: 'Space grotesk';
 }
 

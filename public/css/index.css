@@ -2,9 +2,11 @@
     --degradado: linear-gradient(to right, #F9D976, #8A6B2D);
     --negro: #0F0F0F;
     --blanco: #FFFFFF;
+    --gris: #A0A0A0;
     --huezo: #EFEFEF;
     --dorado: #C29947;
     --sombra: #c2994705;
+    --doradoClaro: #FFE8A3;
 }
 
 body, main{
@@ -31,7 +33,7 @@ header{
     top: 0;
     z-index: 100;
     border-bottom: 1px solid var(--dorado);
-    background: var(--blanco);
+    background: var(--negro);
 }
 
 .cont-eslogan{
@@ -162,6 +164,7 @@ main{
 
 .cont-txt-inicio{
     font-size: 1em;
+    color: var(--gris);
 }
 
 .cont-btn-descargar-inicio{
@@ -222,7 +225,93 @@ main{
 
 .preferirnos{
     grid-area: pre;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+.cont-info-preferirnos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 95%;
+    height: auto;
+}
+
+.tlt-preferirnos{
+    font-size: 1.4em;
+}
+
+.subtlt-preferirnos{
+    font-size: 1em;
+    color: var(--gris);
+}
+
+.item-info-preferirnos{
+    width: 95%;
+    border: 1px solid var(--dorado);
+    border-radius: 10px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-info-preferirnos:hover{
+    border: 1px solid var(--doradoClaro);
+    box-shadow: 0 0 10px var(--sombra);
+    transition: 400ms;
+}
+
+.item-info-preferirnos:not(:hover){
+    box-shadow: none;
+    transition: 400ms;
+}
+
+.cont-info-preferirnos{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.cont-icono-item-preferirnos{
+    width: 20%;
+    height: auto;
+    background: var(--doradoClaro);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-svg-item-preferirnos{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tlt-item-preferirnos{
+    color: var(--dorado);
+    font-size: 1.2em;
+}
+
+.txt-item-preferirnos{
+    font-size: 0.8em;
+    color: var(--gris);
+}
+
+
+
+
+
+
 
 .info{
     grid-area: inf;
