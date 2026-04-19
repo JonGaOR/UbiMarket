@@ -4,7 +4,7 @@
     --blanco: #FFFFFF;
     --huezo: #EFEFEF;
     --dorado: #C29947;
-    --sombra: #c299471a;
+    --sombra: #c2994705;
 }
 
 body, main{
@@ -211,7 +211,7 @@ main{
     width: 100%;
     height: auto;
     border-radius: 20px;
-    box-shadow: 0 0 10px var(--degradado), 0 50px 10px var(--degradado), 0 -50px 10px var(--degradado);
+    box-shadow: 0 0 10px var(--sombra), 0 50px 10px var(--sombra), 0 -50px 10px var(--sombra);
     margin-top: 55px;
     margin-bottom: 55px;
 }
