@@ -474,6 +474,7 @@ main{
 
 
 .descargar{
+    height: auto;
     grid-area: des;
     display: flex;
     flex-direction: column;
@@ -484,7 +485,6 @@ main{
 
 .cont-descargar{
     width: 95%;
-    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
