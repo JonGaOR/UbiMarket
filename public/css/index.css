@@ -264,6 +264,7 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
     width: 95%;
     height: auto;
 }
@@ -582,7 +583,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: center;
+    align-items: start;
 }
 
 .cont-eslogan-enlaces{
