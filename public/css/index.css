@@ -574,7 +574,7 @@ main{
 }
 
 .cont-img-eslogan-enlaces{
-    width: 35%;
+    width: 25%;
     height: auto;
 }
 
@@ -605,6 +605,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    list-style: none;
 }
 
 .lista-enlaces-rapidos a{
