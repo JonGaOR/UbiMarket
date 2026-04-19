@@ -201,7 +201,7 @@ main{
 }
 
 .cont-txt-inicio{
-    font-size: var(--movil-txt-4);
+    font-size: var(--movil-txt-3);
     color: var(--gris);
 }
 
