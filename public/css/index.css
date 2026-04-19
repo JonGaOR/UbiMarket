@@ -538,6 +538,18 @@ hr{
     grid-area: enl;
 }
 
+.cont-img-eslogan-enlaces{
+    width: 10%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
 footer{
     grid-area: pie;
 }
