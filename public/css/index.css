@@ -574,12 +574,12 @@ main{
 }
 
 .cont-img-eslogan-enlaces{
-    width: 20%;
+    width: 15%;
     height: auto;
 }
 
 .nombre-eslogan-enlaces{
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 .txt-eslogan-enlaces{
@@ -606,6 +606,8 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
     list-style: none;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .lista-enlaces-rapidos a{
