@@ -22,8 +22,10 @@ img, svg{
 
 header{
     grid-area: cab;
-    height: 15vh;
+    height: 15%;
     width: 100%;
+    min-height: 15vh; 
+    max-height: 15vh;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 1fr;
@@ -35,7 +37,6 @@ header{
     z-index: 100;
     border-bottom: 1px solid var(--dorado);
     background: var(--negro);
-    overflow: hidden;
 }
 
 .cont-eslogan{
@@ -88,7 +89,7 @@ header{
 .cont-menu-amburguesa{
     grid-area: cma;
     width: 60%;
-    height: 100%;
+    height: auto;
     max-height: 100%;
     display: flex;
     justify-content: center;
@@ -747,6 +748,10 @@ footer{
   }
 
   .cont-menu-amburguesa{
+    display: none;
+  }
+
+  .cont-menu-movil.show{
     display: none;
   }
 }
