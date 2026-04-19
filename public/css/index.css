@@ -765,4 +765,38 @@ footer{
     .cont-menu-movil.show{
         display: none;
     }
+
+    .cont-info-preferirnos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        'it1 it2'
+        'it3 it4';
+        gap: 25px;
+    }
+
+    .item1{
+        grid-area: it1;
+    }
+
+    .item2{
+        grid-area: it2;
+    }
+
+    .item3{
+        grid-area: it3;
+    }
+
+    .item4{
+        grid-area: it4;
+    }
+
+    .cont-enlaces{
+        flex-direction: row;
+    }
+
+    .eslogan-enlaces, .cont-enlaces-rapidos, .cont-contacto{
+        width: 30%;
+    }
 }
