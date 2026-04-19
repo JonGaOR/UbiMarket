@@ -282,7 +282,7 @@ main{
 
 .cont-icono-item-preferirnos{
     width: 15%;
-    height: 20%;
+    padding: 10px 0;
     background: var(--dorado);
     border-radius: 5px;
     display: flex;
