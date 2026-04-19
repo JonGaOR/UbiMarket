@@ -289,6 +289,7 @@ main{
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    padding: 10px 0;
 }
 
 .item-info-preferirnos:hover{
@@ -313,6 +314,7 @@ main{
 
 .cont-icono-item-preferirnos{
     width: 15%;
+    max-width: 50px;
     padding: 10px 0;
     background: var(--degradado);
     border-radius: 5px;
@@ -389,6 +391,7 @@ main{
 
 .cont-icono-punto-info{
     width: 5%;
+    max-width: 20px;
     height: auto;
     display: flex;
     justify-content: center;
@@ -520,7 +523,7 @@ main{
 
 .cont-btn-descargar{
     width: 80%;
-    max-width: 450px;
+    max-width: 350px;
     height: auto;
     border-radius: 10px;
     background: var(--degradado);
@@ -646,7 +649,7 @@ main{
 }
 
 .tlt-contacto-enlaces{
-    font-family: 1.2em;
+    font-size: 1.2em;
 }
 
 .cont-contacto-enlaces{
@@ -781,6 +784,10 @@ footer{
 
     .cont-info-preferirnos{
         grid-area: inp;
+    }
+
+    .item-info-preferirnos{
+        margin-bottom: 0;
     }
 
     .item1{
