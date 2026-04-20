@@ -13,8 +13,12 @@
     --movil-txt-2: 20px;
     --movil-txt-3: 15px;
     --movil-txt-4: 10px;
-    --movil-txt-5: 8px;
-    --movil-txt-6: 6px;
+
+
+    --tablet-txt-1: 37.5px;
+    --tablet-txt-2: 30px;
+    --tablet-txt-3: 22.5px;
+    --tablet-txt-4: 15px;
 }
 
 body, main{
@@ -708,6 +712,21 @@ footer{
 
 
 @media (min-width: 650px){
+    .cont-tlt-inicio{
+        font-size: var(--tablet-txt-1);
+    }
+
+    .tlt-ubimarket, .tlt-info, .tlt-estadisticas, .tlt-descargar, .tlt-item-preferirnos{
+        font-size: var(--tablet-txt-2);
+    }
+
+    .cont-txt-inicio, .nav-pags-movil, .txt-descargar-inicio, .txt-demo, .subtlt-preferirnos, .txt-item-preferirnos, .txt-info, .txt-punto-info, .txt-estadisticas, .txt-descargar, .txt-btn-descargar, .nombre-eslogan-enlaces, .tlt-contacto-enlaces, .tlt-enlaces-rapidos, .txt-item-puntuacion-estadisticas, .txt-eslogan-enlaces{
+        font-size: var(--tablet-txt-3);
+    }
+
+    .enlace-rapido, .contacto, .txt-footer{
+        font-size: var(--tabler-txt-4);
+    }
 
     .menu-pags {
         display: none;
