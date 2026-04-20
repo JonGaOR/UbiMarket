@@ -15,10 +15,10 @@
     --movil-txt-4: 10px;
 
 
-    --tablet-txt-1: 37.5px;
-    --tablet-txt-2: 30px;
-    --tablet-txt-3: 22.5px;
-    --tablet-txt-4: 15px;
+    --tablet-txt-1: 50px;
+    --tablet-txt-2: 40px;
+    --tablet-txt-3: 30px;
+    --tablet-txt-4: 20px;
 }
 
 body, main{
@@ -770,6 +770,10 @@ footer{
 
     .cont-btn-demo{
         grid-area: btd;
+    }
+
+    .txt-demo{
+        content: "Demo";
     }
 
     .img-inicio{
