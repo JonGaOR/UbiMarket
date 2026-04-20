@@ -15,10 +15,10 @@
     --movil-txt-4: 10px;
 
 
-    --tablet-txt-1: 43.75px;
-    --tablet-txt-2: 35px;
-    --tablet-txt-3: 26.25px;
-    --tablet-txt-4: 17.5px;
+    --tablet-txt-1: 33px;
+    --tablet-txt-2: 28px;
+    --tablet-txt-3: 23px;
+    --tablet-txt-4: 18px;
 }
 
 body, main{
@@ -40,7 +40,7 @@ p, h1{
     font-size: var(--movil-txt-1);
 }
 
-.tlt-ubimarket, .tlt-info, .tlt-estadisticas, .tlt-descargar, .tlt-item-preferirnos{
+.tlt-ubimarket, .tlt-info, .tlt-estadisticas, .tlt-descargar, .tlt-item-preferirnos, .tlt-preferirnos{
     font-size: var(--movil-txt-2);
 }
 
@@ -309,7 +309,6 @@ main{
 }
 
 .tlt-preferirnos{
-    font-size: var(--movil-txt-2);
     margin: 0 auto;
     text-align: center;
 }
@@ -719,7 +718,7 @@ footer{
         font-size: var(--tablet-txt-1);
     }
 
-    .tlt-ubimarket, .tlt-info, .tlt-estadisticas, .tlt-descargar, .tlt-item-preferirnos{
+    .tlt-ubimarket, .tlt-info, .tlt-estadisticas, .tlt-descargar, .tlt-item-preferirnos, .tlt-preferirnos{
         font-size: var(--tablet-txt-2);
     }
 
