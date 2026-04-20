@@ -10,7 +10,7 @@
 
 
     --movil-txt-1: 25px;
-    --movil-txt-2: 25px;
+    --movil-txt-2: 20px;
     --movil-txt-3: 15px;
     --movil-txt-4: 10px;
     --movil-txt-5: 8px;
@@ -32,15 +32,15 @@ img, svg{
     font-size: var(--movil-txt-1);
 }
 
-.tlt-ubimarket{
+.tlt-ubimarket, .tlt-info, .tlt-estadisticas, .tlt-descargar{
     font-size: var(--movil-txt-2);
 }
 
-.cont-txt-inicio, .nav-pags-movil, .txt-descargar-inicio, .txt-demo, .subtlt-preferirnos, .txt-info, .txt-estadisticas, .txt-descargar, .txt-btn-descargar{
+.cont-txt-inicio, .nav-pags-movil, .txt-descargar-inicio, .txt-demo, .subtlt-preferirnos, .txt-item-preferirnos, .txt-info, .txt-punto-info, .txt-estadisticas, .txt-descargar, .txt-btn-descargar, .nombre-eslogan-enlaces, .tlt-contacto-enlaces, .tlt-enlaces-rapidos{
     font-size: var(--movil-txt-3);
 }
 
-.txt-item-preferirnos, .txt-punto-info, .txt-item-puntuacion-estadisticas, .txt-eslogan-enlaces, .enlace-rapido, .contacto, .txt-footer{
+.txt-item-puntuacion-estadisticas, .txt-eslogan-enlaces, .enlace-rapido, .contacto, .txt-footer{
     font-size: var(--movil-txt-4);
 }
 
@@ -395,10 +395,6 @@ main{
     align-items: start;
 }
 
-.tlt-info{
-    font-size: var(--movil-txt-3);
-}
-
 .txt-info{
     color: var(--gris);
 }
@@ -480,10 +476,6 @@ main{
     justify-content: space-evenly;
 }
 
-.tlt-estadisticas{
-    font-size: var(--movil-txt-3);
-}
-
 .txt-estadisticas{
     color: var(--gris);
 }
@@ -547,7 +539,6 @@ main{
 
 .tlt-descargar{
     text-align: center;
-    font-size: var(--movil-txt-3);
 }
 
 .txt-descargar{
@@ -631,10 +622,6 @@ main{
     height: auto;
 }
 
-.nombre-eslogan-enlaces{
-    font-size: var(--movil-txt-4);
-}
-
 .txt-eslogan-enlaces{
     color: var(--gris);
 }
@@ -646,7 +633,6 @@ main{
 }
 
 .tlt-enlaces-rapidos{
-    font-size: var(--movil-txt-4);
     margin: 0;
 }
 
@@ -681,7 +667,6 @@ main{
 }
 
 .tlt-contacto-enlaces{
-    font-size: var(--movil-txt-4);
     margin: 0;
 }
 
