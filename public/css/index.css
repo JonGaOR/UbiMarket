@@ -22,9 +22,11 @@
 
 
     --laptop-txt-1: 40px;
-    --laptop-txt-2: 33px;
-    --laptop-txt-3: 23px;
+    --laptop-txt-2: 26px;
+    --laptop-txt-3: 17px;
     --laptop-txt-4: 18px;
+    --laptop-txt-extra-1: 33px;
+    --laptop-txt-extra-2: 23px;
 }
 
 body, main{
@@ -882,12 +884,16 @@ footer{
         font-size: var(--laptop-txt-2);
     }
 
-    .cont-txt-inicio, .nav-pags-movil, .txt-descargar-inicio, .txt-demo, .subtlt-preferirnos, .txt-item-preferirnos, .txt-info, .txt-punto-info, .txt-estadisticas, .txt-descargar, .txt-btn-descargar, .nombre-eslogan-enlaces, .tlt-contacto-enlaces, .tlt-enlaces-rapidos, .txt-item-puntuacion-estadisticas, .txt-eslogan-enlaces{
+    .cont-txt-inicio, .nav-pags-movil, .txt-descargar-inicio, .txt-demo, .subtlt-preferirnos, .txt-item-preferirnos, .txt-info, .txt-punto-info, .txt-estadisticas, .txt-btn-descargar, .nombre-eslogan-enlaces, .tlt-contacto-enlaces, .tlt-enlaces-rapidos, .txt-item-puntuacion-estadisticas, .txt-eslogan-enlaces{
         font-size: var(--laptop-txt-3);
     }
 
     .enlace-rapido, .contacto, .txt-footer{
         font-size: var(--laptop-txt-4);
+    }
+
+    .cont-txt-inicio, .subtlt-preferirnos, .txt-descargar{
+        font-size: var(--laptop-txt-extra-2);
     }
 
     .img-inicio, .img-info, .img-estadisticas{
@@ -934,6 +940,10 @@ footer{
         'inp inp inp inp'
         'it1 it2 it3 it4';
         gap: 30px;
+    }
+
+    .cont-icono-item-preferirnos{
+        width: 25%;
     }
 
     .cont-estadisticas{
