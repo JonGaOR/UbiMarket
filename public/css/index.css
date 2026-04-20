@@ -32,15 +32,15 @@ img, svg{
     font-size: var(--movil-txt-1);
 }
 
-.tlt-ubimarket, .tlt-info, .tlt-estadisticas, .tlt-descargar{
+.tlt-ubimarket, .tlt-info, .tlt-estadisticas, .tlt-descargar, .tlt-item-preferirnos{
     font-size: var(--movil-txt-2);
 }
 
-.cont-txt-inicio, .nav-pags-movil, .txt-descargar-inicio, .txt-demo, .subtlt-preferirnos, .txt-item-preferirnos, .txt-info, .txt-punto-info, .txt-estadisticas, .txt-descargar, .txt-btn-descargar, .nombre-eslogan-enlaces, .tlt-contacto-enlaces, .tlt-enlaces-rapidos{
+.cont-txt-inicio, .nav-pags-movil, .txt-descargar-inicio, .txt-demo, .subtlt-preferirnos, .txt-item-preferirnos, .txt-info, .txt-punto-info, .txt-estadisticas, .txt-descargar, .txt-btn-descargar, .nombre-eslogan-enlaces, .tlt-contacto-enlaces, .tlt-enlaces-rapidos, .txt-item-puntuacion-estadisticas, .txt-eslogan-enlaces{
     font-size: var(--movil-txt-3);
 }
 
-.txt-item-puntuacion-estadisticas, .txt-eslogan-enlaces, .enlace-rapido, .contacto, .txt-footer{
+.enlace-rapido, .contacto, .txt-footer{
     font-size: var(--movil-txt-4);
 }
 
@@ -365,7 +365,6 @@ main{
 
 .tlt-item-preferirnos{
     color: var(--dorado);
-    font-size: var(--movil-txt-3);
 }
 
 .txt-item-preferirnos{
