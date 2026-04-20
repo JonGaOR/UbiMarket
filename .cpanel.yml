@@ -2,11 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ubimxghu/UbiMarket/
-    # Limpia la carpeta destino antes de copiar
     - /bin/rm -rf $DEPLOYPATH/*
-    # Copia todos los archivos del repositorio al public_html
     - /bin/cp -R * $DEPLOYPATH
-    # Opcional: instala dependencias si usas Node.js
     - cd $DEPLOYPATH && npm install --production
-    # Opcional: reinicia la aplicación si usas Passenger/Node.js
     - touch $DEPLOYPATH/tmp/restart.txt
