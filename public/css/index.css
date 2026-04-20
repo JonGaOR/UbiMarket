@@ -694,6 +694,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .cont-footer{
@@ -882,6 +883,10 @@ footer{
     .img-inicio, .img-info, .img-estadisticas{
         max-width: 500px;
         margin: 0 auto;
+    }
+
+    .cont-img-icono{
+        min-width: 35%;
     }
 
     main{
