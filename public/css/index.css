@@ -29,10 +29,15 @@
     --laptop-txt-extra-2: 23px;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 body, main{
     width: 100%;
     max-width: 100%;
-    overflow-x: none;
+    overflow-x: hidden;
+    
 }
 
 img, svg{
@@ -88,7 +93,6 @@ header{
     z-index: 100;
     border-bottom: 1px solid var(--dorado);
     background: var(--negro);
-    overflow-x: none;
 }
 
 .cont-eslogan{
