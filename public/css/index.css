@@ -32,7 +32,11 @@ img, svg{
     height: auto;
 }
 
-.cont-tlt-inicio{
+p, h1{
+    margin: 0;
+}
+
+.cont-tlt-inicio, .puntuacion-grande-estadisticas{
     font-size: var(--movil-txt-1);
 }
 
@@ -501,7 +505,6 @@ main{
 }
 
 .puntuacion-grande-estadisticas{
-    font-size: var(--movil-txt-2);
     color: var(--dorado);
 }
 
