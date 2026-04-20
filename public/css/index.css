@@ -22,10 +22,10 @@
 
 
     --laptop-txt-1: 40px;
-    --laptop-txt-2: 26px;
+    --laptop-txt-2: 33px;
     --laptop-txt-3: 17px;
     --laptop-txt-4: 18px;
-    --laptop-txt-extra-1: 33px;
+    --laptop-txt-extra-1: 26px;
     --laptop-txt-extra-2: 23px;
 }
 
@@ -58,6 +58,10 @@ p, h1{
 
 .enlace-rapido, .contacto, .txt-footer{
     font-size: var(--movil-txt-4);
+}
+
+.cont-txt-inicio, .subtlt-preferirnos, .txt-item-preferirnos, .txt-info, .txt-punto-info, .txt-estadisticas, .txt-item-puntuacion-estadisticas, .txt-descargar, .txt-eslogan-enlaces, .enlace-rapido, .contacto, .txt-footer{
+    color: var(--gris);
 }
 
 
@@ -239,10 +243,6 @@ main{
     margin: 0;
 }
 
-.cont-txt-inicio{
-    color: var(--gris);
-}
-
 .cont-btn-descargar-inicio{
     width: 100%;
     background: var(--degradado);
@@ -327,7 +327,6 @@ main{
 }
 
 .subtlt-preferirnos{
-    color: var(--gris);
     text-align: center;
     margin: 0 auto;
 }
@@ -360,7 +359,7 @@ main{
     height: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: start;
 }
 
@@ -388,7 +387,6 @@ main{
 }
 
 .txt-item-preferirnos{
-    color: var(--gris);
     text-align: start;
 }
 
@@ -412,10 +410,6 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: start;
-}
-
-.txt-info{
-    color: var(--gris);
 }
 
 .cont-puntos-info{
@@ -457,7 +451,6 @@ main{
 .txt-punto-info{
     width: 85%;
     height: auto;
-    color: var(--gris);
 }
 
 .img-info{
@@ -495,10 +488,6 @@ main{
     justify-content: space-evenly;
 }
 
-.txt-estadisticas{
-    color: var(--gris);
-}
-
 .puntuaciones-estadisticas{
     width: 100%;
     height: auto;
@@ -518,10 +507,6 @@ main{
 
 .puntuacion-grande-estadisticas{
     color: var(--dorado);
-}
-
-.txt-item-puntuacion-estadisticas{
-    color: var(--gris);
 }
 
 .img-estadisticas{
@@ -561,7 +546,6 @@ main{
 
 .txt-descargar{
     text-align: center;
-    color: var(--gris);
 }
 
 .cont-btn-descargar{
@@ -640,10 +624,6 @@ main{
     height: auto;
 }
 
-.txt-eslogan-enlaces{
-    color: var(--gris);
-}
-
 .cont-enlaces-rapidos{
     display: flex;
     flex-direction: column;
@@ -673,7 +653,6 @@ main{
 }
 
 .enlace-rapido{
-    color: var(--gris);
     margin-left: 0;
 }
 
@@ -695,7 +674,6 @@ main{
 }
 
 .contacto{
-    color: var(--gris);
     margin: 0;
 }
 
@@ -715,10 +693,6 @@ footer{
 
 .cont-footer{
     text-align: center;
-}
-
-.txt-footer{
-    color: var(--gris);
 }
 
 
@@ -880,11 +854,11 @@ footer{
         font-size: var(--laptop-txt-1);
     }
 
-    .tlt-ubimarket, .tlt-info, .tlt-estadisticas, .tlt-descargar, .tlt-item-preferirnos, .tlt-preferirnos{
+    .tlt-ubimarket, .tlt-info, .tlt-estadisticas, .tlt-descargar, .tlt-preferirnos{
         font-size: var(--laptop-txt-2);
     }
 
-    .cont-txt-inicio, .nav-pags-movil, .txt-descargar-inicio, .txt-demo, .subtlt-preferirnos, .txt-item-preferirnos, .txt-info, .txt-punto-info, .txt-estadisticas, .txt-btn-descargar, .nombre-eslogan-enlaces, .tlt-contacto-enlaces, .tlt-enlaces-rapidos, .txt-item-puntuacion-estadisticas, .txt-eslogan-enlaces{
+    .cont-txt-inicio, .nav-pags-movil, .subtlt-preferirnos, .txt-item-preferirnos, .txt-info, .txt-punto-info, .txt-estadisticas, .nombre-eslogan-enlaces, .tlt-contacto-enlaces, .tlt-enlaces-rapidos, .txt-item-puntuacion-estadisticas, .txt-eslogan-enlaces{
         font-size: var(--laptop-txt-3);
     }
 
@@ -892,7 +866,11 @@ footer{
         font-size: var(--laptop-txt-4);
     }
 
-    .cont-txt-inicio, .subtlt-preferirnos, .txt-descargar{
+    .tlt-item-preferirnos{
+        font-size: var(--laptop-txt-extra-1);
+    }
+
+    .cont-txt-inicio, .subtlt-preferirnos, .txt-descargar, .txt-demo, .txt-descargar-inicio, .txt-btn-descargar{
         font-size: var(--laptop-txt-extra-2);
     }
 
