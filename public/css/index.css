@@ -17,8 +17,8 @@
 
     --tablet-txt-1: 31px;
     --tablet-txt-2: 26px;
-    --tablet-txt-3: 21px;
-    --tablet-txt-4: 16px;
+    --tablet-txt-3: 17px;
+    --tablet-txt-4: 15px;
 }
 
 body, main{
@@ -727,7 +727,7 @@ footer{
     }
 
     .enlace-rapido, .contacto, .txt-footer{
-        font-size: var(--tabler-txt-4);
+        font-size: var(--tablet-txt-4);
     }
 
     .menu-pags {
