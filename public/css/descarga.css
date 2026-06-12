@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(180deg, #1c1c1c 0%, #000000 100%);
+    color: white;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* ==================== HEADER ==================== */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 24px;
+    background: rgba(0, 0, 0, 0.95);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.app-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.app-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.app-name {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+.menu {
+    font-size: 28px;
+    cursor: pointer;
+    display: block;
+}
+
+/* ==================== HERO ==================== */
+.hero {
+    padding: 80px 24px 100px;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.main-title {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.app-title {
+    font-size: 72px;
+    font-weight: 800;
+    background: linear-gradient(90deg, #ffd700, #f1b000, #ffeb3b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+}
+
+.description {
+    font-size: 19px;
+    line-height: 1.55;
+    color: #e5e5e5;
+    margin-bottom: 70px;
+}
+
+.google-play-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #f1c40f, #f39c12);
+    color: #000;
+    padding: 16px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+    max-width: 340px;
+    margin: 0 auto;
+}
+
+.play-icon {
+    font-size: 38px;
+    margin-right: 20px;
+}
+
+/* ==================== CARACTERÍSTICAS ==================== */
+.caracteristicas {
+    padding: 40px 20px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.tarjeta {
+    background: #0f0f0f;
+    border-radius: 28px;
+    padding: 36px 24px 40px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.icono-circulo {
+    width: 92px;
+    height: 92px;
+    background: linear-gradient(135deg, #ffd700, #ff9500);
+    color: #000;
+    font-size: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+    box-shadow: 0 8px 25px rgba(255, 215, 0, 0.5);
+}
+
+.titulo-tarjeta {
+    color: #ffd700;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.subtitulo-tarjeta {
+    color: #bbbbbb;
+    font-size: 15.8px;
+    line-height: 1.5;
+}
+
+/* ==================== TUTORIAL ==================== */
+.tutorial {
+    padding: 50px 20px 80px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.titulo-tutorial {
+    font-size: 42px;
+    margin-bottom: 16px;
+}
+
+.resaltado {
+    color: #ffd700;
+}
+
+.subtitulo-tutorial {
+    font-size: 18px;
+    color: #cccccc;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+.pasos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.paso {
+    background: #0f0f0f;
+    border-radius: 28px;
+    padding: 28px;
+    display: flex;
+    gap: 24px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.numero-circulo {
+    width: 68px;
+    height: 68px;
+    background: linear-gradient(135deg, #ffd700, #ff9500);
+    color: #000;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.contenido-paso h3 {
+    color: #ffd700;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.contenido-paso p {
+    color: #bbbbbb;
+    line-height: 1.55;
+    font-size: 15.5px;
+}
+
+/* ==================== REQUISITOS ==================== */
+.requisitos {
+    padding: 50px 20px 80px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.titulo-requisitos {
+    font-size: 38px;
+    color: #ffd700;
+    margin-bottom: 50px;
+}
+
+.seccion-requerimiento {
+    background: #0f0f0f;
+    border-radius: 28px;
+    padding: 32px 28px;
+    margin-bottom: 24px;
+    text-align: left;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.titulo-seccion {
+    color: #ffd700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.lista-requisitos {
+    list-style: none;
+}
+
+.lista-requisitos li {
+    padding: 10px 0;
+    font-size: 16.5px;
+    color: #e0e0e0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.lista-requisitos li:last-child {
+    border-bottom: none;
+}
+
+/* ==================== SOPORTE ==================== */
+.soporte {
+    padding: 100px 24px 120px;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.titulo-soporte {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.descripcion-soporte {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #e0e0e0;
+    margin-bottom: 70px;
+}
+
+.boton-contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.boton-soporte {
+    display: inline-block;
+    padding: 18px 48px;
+    border: 2px solid #ffd700;
+    color: #ffd700;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.boton-soporte:hover {
+    background: #ffd700;
+    color: #000;
+    transform: translateY(-4px);
+}
+
+/* ==================== FOOTER ==================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: linear-gradient(180deg, #1c1c1c 0%, #000000 100%);
+    color: white;
+    min-height: 100vh;
+}
+
+/* ==================== BARRA SUPERIOR ==================== */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+.app-name {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* ==================== FOOTER ==================== */
+.footer {
+    background: #0a0a0a;
+    padding: 60px 24px 30px;
+    margin-top: 80px;
+}
+
+.footer-contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.titulo-seccion {
+    color: #ffd700;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.lista-enlaces {
+    list-style: none;
+}
+
+.lista-enlaces li {
+    margin-bottom: 12px;
+}
+
+.lista-enlaces a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.lista-enlaces a:hover {
+    color: #ffd700;
+}
+
+.info-contacto p {
+    color: #e0e0e0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.pata {
+    font-size: 18px;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    .footer-contenido {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .tagline {
+        text-align: left;
+    }
+}

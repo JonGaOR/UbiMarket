@@ -1,0 +1,497 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: #000;
+    color: white;
+}
+
+/* Navegación */
+nav {
+    background-color: #000;
+    border-bottom: 1px solid #333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo-circle {
+    width: 32px;
+    height: 32px;
+    background-color: #080807;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 22px;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.menu a {
+    color: #d1d5db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #facc15;
+}
+
+.menu a.active {
+    color: #facc15;
+    position: relative;
+}
+
+.menu a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #facc15;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom, #1f1f1f, #0a0a0a);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.titulo-principal {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height: 1.1;
+}
+
+.titulo-principal span {
+    color: #facc15;
+}
+
+.subtitulo {
+    font-size: 1.35rem;
+    color: #9ca3af;
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+/* ====================== EQUIPO SECTION ====================== */
+
+.equipo {
+    background-color: #0a0a0a;
+    padding: 80px 20px;
+}
+
+.equipo-grid {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 30px;
+    padding: 0 24px;
+}
+
+.tarjeta {
+    background-color: #111;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #222;
+}
+
+.tarjeta:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(250, 204, 21, 0.1);
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.tarjeta-contenido {
+    padding: 28px;
+    text-align: center;
+}
+
+.nombre {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: white;
+}
+
+.cargo {
+    background-color: #facc15;
+    color: black;
+    display: inline-block;
+    padding: 4px 16px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.descripcion {
+    color: #9ca3af;
+    line-height: 1.6;
+    margin-bottom: 28px;
+    font-size: 1rem;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.icono {
+    width: 48px;
+    height: 48px;
+    background-color: #facc15;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.icono:hover {
+    background-color: white;
+    transform: scale(1.1);
+}
+.equipo-grid {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    padding: 0 24px;
+}
+/* ====================== CULTURA SECTION ====================== */
+
+.cultura {
+    background-color: #0a0a0a;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.cultura-contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.titulo-cultura {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.titulo-cultura span {
+    color: #facc15;
+}
+
+.subtitulo-cultura {
+    font-size: 1.35rem;
+    color: #9ca3af;
+    max-width: 700px;
+    margin: 0 auto 60px;
+    line-height: 1.6;
+}
+
+.cultura-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.cultura-card {
+    background-color: #111;
+    border: 1px solid #222;
+    border-radius: 16px;
+    padding: 40px 24px;
+    transition: all 0.3s ease;
+}
+
+.cultura-card:hover {
+    border-color: #facc15;
+    transform: translateY(-8px);
+    background-color: #1a1a1a;
+}
+
+.cultura-card h3 {
+    color: #facc15;
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.cultura-card p {
+    color: #9ca3af;
+    line-height: 1.6;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-icon {
+    background-color: #f4c300;
+    color: #000;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 6px;
+}
+
+.logo-text {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+    color: #f4c300;
+}
+
+.nav-menu .active {
+    color: #f4c300;
+    position: relative;
+}
+
+.nav-menu .active:after {
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #f4c300;
+}
+
+/* Contenido central */
+.hero {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.content-box {
+    background-color: #111111;
+    border: 2px solid #f4c300;
+    border-radius: 16px;
+    padding: 60px 80px;
+    max-width: 720px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+.content-box h1 {
+    font-size: 42px;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+
+.content-box p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: #cccccc;
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-button {
+    background-color: #f4c300;
+    color: #000;
+    border: none;
+    padding: 16px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ffd633;
+    transform: translateY(-2px);
+}
+
+.cta-button .icon {
+    font-size: 22px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 20px 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .nav-menu {
+        gap: 20px;
+    }
+    
+    .content-box {
+        padding: 40px 30px;
+    }
+    
+    .content-box h1 {
+        font-size: 32px;
+    }
+}
+.footer {
+    background: #0a0a0a;
+    padding: 60px 24px 30px;
+    margin-top: 80px;
+}
+
+.footer-contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.titulo-seccion {
+    color: #ffd700;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.lista-enlaces {
+    list-style: none;
+}
+
+.lista-enlaces li {
+    margin-bottom: 12px;
+}
+
+.lista-enlaces a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.lista-enlaces a:hover {
+    color: #ffd700;
+}
+
+.info-contacto p {
+    color: #e0e0e0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.pata {
+    font-size: 18px;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    .footer-contenido {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+    .tagline {
+        text-align: left;
+    }
+}
