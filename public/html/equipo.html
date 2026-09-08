@@ -3,23 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AppName - Nuestro Equipo</title>
+    <title>UBIMARKETSV - Nuestro Equipo</title>
     <link rel="stylesheet" href="../css/equipo.css">
 </head>
 <body>
     <nav>
         <div class="nav-container">
-            <a href="index.html" class="logo">
+            <a href="" class="logo">
                 <img src="https://ubimarketsv.com/img/UbiMarketIcono.png" alt="UbiMarket Logo" class="logo-circle">
                 <span>UBIMARKETSV</span>
             </a>
             
-            <div class="menu">
-                <a href="index.html">Inicio</a>
-                <a href="descarga.html">Descarga</a>
-                <a href="nosotros.html">Nosotros</a>
-                <a href="equipo.html" class="active">Equipo</a>
-                <a href="soporte.html">Soporte</a>
+            <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="menu" id="nav-menu">
+                <a href="/">Inicio</a>
+                <a href="../html/descarga.html">Descarga</a>
+                <a href="../html/nosotros.html">Nosotros</a>
+                <a href="../html/equipo.html" class="active">Equipo</a>
+                <a href="../html/soporte.html">Soporte</a>
             </div>
         </div>
     </nav>
@@ -41,10 +47,9 @@
             
             <!-- Tarjeta 1 -->
             <div class="tarjeta">
-                <img src="" alt="Adriana Barahona">
                 <div class="tarjeta-contenido">
                     <h3 class="nombre">Adriana Barahona</h3>
-                    <p class="cargo">Diseñadora</p>
+                    <span class="cargo">Diseñadora</span>
                     <p class="descripcion">
                         Diseñadora creativa especializada en UX/UI y branding.
                         Encargada de crear experiencias visuales atractivas, intuitivas y alineadas con la identidad de UbiMarketSV.
@@ -59,10 +64,9 @@
 
             <!-- Tarjeta 2 -->
             <div class="tarjeta">
-                <img src="" alt="Cristian Perrez">
                 <div class="tarjeta-contenido">
                     <h3 class="nombre">Cristian Perez</h3>
-                    <p class="cargo">Tecnico</p>
+                    <span class="cargo">Tecnico</span>
                     <p class="descripcion">
                         Especialista técnico responsable del desarrollo, mantenimiento y optimización de las plataformas.
                         Garantiza el correcto funcionamiento, seguridad y escalabilidad de nuestros sistemas.
@@ -77,10 +81,9 @@
 
             <!-- Tarjeta 3 -->
             <div class="tarjeta">
-                <img src="" alt="Marcos Hernandez">
                 <div class="tarjeta-contenido">
-                    <h3 class="nombre">marcos hernandez</h3>
-                    <p class="cargo">Marketing</p>
+                    <h3 class="nombre">Marcos Hernandez</h3>
+                    <span class="cargo">Marketing</span>
                     <p class="descripcion">
                      Encargado de las estrategias de marketing digital, posicionamiento de marca y captación de usuarios.
                      Crea campañas creativas que conectan a UbiMarketSV con su audiencia objetivo.
@@ -94,15 +97,14 @@
             </div>
         </div>
     </section>
-      <!-- Sección Equipo -->
+
     <section class="equipo">
         <div class="equipo-grid">
-            <!-- Tarjeta 1 -->
+            <!-- Tarjeta 4 -->
             <div class="tarjeta">
-                <img src="" alt="Jonathan Ortiz">
                 <div class="tarjeta-contenido">
                     <h3 class="nombre">Jonathan Ortiz</h3>
-                    <p class="cargo">Director General</p>
+                    <span class="cargo">Director General</span>
                     <p class="descripcion">
                      Visionario líder con amplia experiencia en gestión empresarial y desarrollo tecnológico.
                      Dirige la estrategia general de la empresa, impulsando el crecimiento y la innovación.
@@ -115,12 +117,11 @@
                 </div>
             </div>
 
-            <!-- Tarjeta 2 -->
+            <!-- Tarjeta 5 -->
             <div class="tarjeta">
-                <img src="" alt="Evelin Merino">
                 <div class="tarjeta-contenido">
                     <h3 class="nombre">Evelin Merino</h3>
-                    <p class="cargo"> Subdirectora</p>
+                    <span class="cargo">Subdirectora</span>
                     <p class="descripcion">
                     Profesional con sólida experiencia en operaciones y liderazgo de equipos.
                      Apoya la dirección general en la toma de decisiones estratégicas y asegura la ejecución eficiente de los proyectos.
@@ -134,6 +135,7 @@
             </div>
         </div>
     </section>
+
     <section class="cultura">
         <div class="cultura-contenido">
             <h2 class="titulo-cultura">Nuestra <span>Cultura</span></h2>
@@ -162,25 +164,23 @@
             </div>
         </div>
     </section>
+
     <main class="hero">
         <div class="content-box">
             <h1>¿Quieres ser parte del equipo?</h1>
             <p>Estamos siempre en búsqueda de talento excepcional que comparta nuestra pasión por la innovación y la excelencia. Si crees que encajas con nuestra cultura, nos encantaría conocerte.</p>
-            <button class="cta-button">
-                <span class="icon">✉️</span>
-                Envíanos tu CV
-            </button>
         </div>
     </main>
-     <footer class="footer">
+
+    <footer class="footer">
         <div class="footer-contenido">
             <div class="seccion-enlaces">
                 <h3 class="titulo-seccion">Enlaces Rápidos</h3>
                 <ul class="lista-enlaces">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="equipo.html">Equipo</a></li>
-                    <li><a href="soporte.html">Soporte</a></li>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="../html/nosotros.html">Nosotros</a></li>
+                    <li><a href="../html/descarga.html">descarga</a></li>
+                    <li><a href="../html/soporte.html">Soporte</a></li>
                 </ul>
             </div>
 
@@ -193,5 +193,15 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        const btn = document.getElementById('hamburger-btn');
+        const menu = document.getElementById('nav-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            btn.classList.toggle('active');
+        });
+    </script>
 </body>
 </html>

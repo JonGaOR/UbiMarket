@@ -7,175 +7,196 @@
     <link rel="stylesheet" href="../css/descarga.css">
 </head>
 <body>
+
+    <!-- Header / Navbar -->
     <header>
         <div class="top-bar">
-            <a href="../index.html" class="logo">
+            <a href="/" class="logo">
                 <div class="app-icon">
-                    <img src="https://ubimarketsv.com/img/UbiMarketIcono.png" alt="UbiMarket Icon">
+                    <img src="https://ubimarketsv.com/img/UbiMarketIcono.png" alt="UbiMarket Icono">
                 </div>
-                <span class="app-name">UBIMARKETSV</span>
+                <span class="Ubimarket">UBIMARKETSV</span>
             </a>
-            
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="inicio.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="equipo.html">Equipo</a></li>
-                    <li><a href="soporte.html">Soporte</a></li>
-                </ul>
+
+            <button class="hamburger" id="hamburger-btn" aria-label="Abrir menú">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Menú de navegación -->
+            <nav class="menu" id="nav-menu">
+                <a href="/">Inicio</a>
+                <a href="../html/nosotros.html">Nosotros</a>
+                <a href="../html/equipo.html">Equipo</a>
+                <a href="../html/soporte.html">Soporte</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <div class="hero">
-            <h1 class="main-title">Descarga</h1>
-            <h2 class="app-title">UBIMARKETSV</h2>
+        <section class="hero">
+            <span class="tag">Descarga</span>
+            <h1 class="main-title">UBIMARKETSV</h1>
             
-            <p class="description">
-                Disponible ahora en Google Play Store.<br>
-                Descarga gratis y empieza a transformar<br> 
-                tu experiencia.
-            </p>
+            <p class="hero-subtitle">Disponible ahora en Google Play Store.</p>
+            <p class="hero-desc">Descarga gratis y empieza a transformar tu experiencia.</p>
 
-            <div class="play-button">
-                <a href="https://play.google.com/store/apps/details?id=com.ubimarketsv.app" 
-                   target="_blank" 
-                   class="google-play-btn">
-                    <span class="play-icon">▶</span>
-                    <div class="play-text">
-                        DISPONIBLE EN<br>
-                        <strong>Google Play</strong>
-                    </div>
-                </a>
+            <a href="https://play.google.com/store/apps/details?id=com.ubimarket" class="btn-playstore">
+                <span class="play-icon">▶</span>
+                <div class="btn-text">
+                    <small>DISPONIBLE EN</small>
+                    <strong>Google Play</strong>
+                </div>
+            </a>
+        </section>
+
+        
+        <section class="features">
+            <div class="feature-card">
+                <div class="icon-glow">
+                    <span class="icon">⬇️</span>
+                </div>
+                <h3>Descarga Rápida</h3>
+                <p>Solo toma unos segundos descargar e instalar</p>
             </div>
-        </div>
+            
+            <div class="feature-card">
+                <div class="icon-glow">
+                    <span class="icon">📱</span>
+                </div>
+                <h3>Compatible</h3>
+                <p>Funciona en Android 6.0 y versiones superiores</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="icon-glow">
+                    <span class="icon">✅</span>
+                </div>
+                <h3>Gratis</h3>
+                <p>Sin costos ocultos, descarga completamente gratis</p>
+            </div>
+        </section>
+
+        <!-- Tutorial  -->
+        <section class="tutorial">
+            <h2>Tutorial de <span>Inicio</span></h2>
+            <p class="section-desc">Sigue estos sencillos pasos para comenzar a usar la aplicación</p>
+
+            <div class="steps-list">
+                <div class="step-card">
+                    <div class="step-num">1</div>
+                    <div class="step-content">
+                        <h4>Descarga la aplicación</h4>
+                        <p>Haz clic en el botón de Google Play Store para descargar la app en tu dispositivo Android.</p>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-num">2</div>
+                    <div class="step-content">
+                        <h4>Instala y abre</h4>
+                        <p>Una vez descargada, instala la aplicación y ábrela. Acepta los permisos necesarios.</p>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-num">3</div>
+                    <div class="step-content">
+                        <h4>Crea tu cuenta</h4>
+                        <p>Regístrate con tu email o usa tu cuenta de Google para acceder rápidamente.</p>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-num">4</div>
+                    <div class="step-content">
+                        <h4>Configura tu perfil</h4>
+                        <p>Personaliza tu perfil con tu información y preferencias para una mejor experiencia.</p>
+                    </div>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-num">5</div>
+                    <div class="step-content">
+                        <h4>¡Comienza a usar la app!</h4>
+                        <p>Explora todas las funcionalidades y empieza a disfrutar de nuestra aplicación.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Requerimiento  -->
+        <section class="requirements">
+            <h2>Requisitos del Sistema</h2>
+
+            <div class="req-container">
+                <div class="req-card">
+                    <h3>Mínimo 🐾</h3>
+                    <ul>
+                        <li>Android 6.0 o superior</li>
+                        <li>100 MB de espacio libre</li>
+                        <li>Conexión a Internet</li>
+                        <li>RAM 2GB mínimo</li>
+                    </ul>
+                </div>
+
+                <div class="req-card">
+                    <h3>Recomendado 🐾</h3>
+                    <ul>
+                        <li>Android 10.0 o superior</li>
+                        <li>200 MB de espacio libre</li>
+                        <li>WiFi o 4G/5G</li>
+                        <li>RAM 4GB o más</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Soporte -->
+        <section class="support-section">
+            <h2>¿Necesitas ayuda?</h2>
+            <p>Si tienes problemas con la descarga o instalación, nuestro equipo de soporte está listo para ayudarte</p>
+            <a href="../html/soporte.html" class="btn-support">Contactar Soporte</a>
+        </section>
     </main>
 
-    <!-- Características -->
-    <section class="caracteristicas">
-        <div class="tarjeta">
-            <div class="icono-circulo">⬇️</div>
-            <h3 class="titulo-tarjeta">Descarga Rápida</h3>
-            <p class="subtitulo-tarjeta">Solo toma unos segundos descargar e instalar</p>
-        </div>
-        <div class="tarjeta">
-            <div class="icono-circulo">📱</div>
-            <h3 class="titulo-tarjeta">Compatible</h3>
-            <p class="subtitulo-tarjeta">Funciona en Android 6.0 y versiones superiores</p>
-        </div>
-        <div class="tarjeta">
-            <div class="icono-circulo">✅</div>
-            <h3 class="titulo-tarjeta">Gratis</h3>
-            <p class="subtitulo-tarjeta">Sin costos ocultos, descarga completamente gratis</p>
-        </div>
-    </section>
-
-    <!-- Tutorial -->
-    <section class="tutorial">
-        <h2 class="titulo-tutorial">Tutorial de <span class="resaltado">Inicio</span></h2>
-        <p class="subtitulo-tutorial">
-            Sigue estos sencillos pasos para comenzar a usar la aplicación
-        </p>
-
-        <div class="pasos">
-            <div class="paso">
-                <div class="numero-circulo">1</div>
-                <div class="contenido-paso">
-                    <h3>Descarga la aplicación</h3>
-                    <p>Haz clic en el botón de Google Play Store para descargar la app en tu dispositivo Android.</p>
-                </div>
-            </div>
-            <div class="paso">
-                <div class="numero-circulo">2</div>
-                <div class="contenido-paso">
-                    <h3>Instala y abre</h3>
-                    <p>Una vez descargada, instala la aplicación y ábrela. Acepta los permisos necesarios.</p>
-                </div>
-            </div>
-            <div class="paso">
-                <div class="numero-circulo">3</div>
-                <div class="contenido-paso">
-                    <h3>Crea tu cuenta</h3>
-                    <p>Regístrate con tu email o usa tu cuenta de Google para acceder rápidamente.</p>
-                </div>
-            </div>
-            <div class="paso">
-                <div class="numero-circulo">4</div>
-                <div class="contenido-paso">
-                    <h3>Configura tu perfil</h3>
-                    <p>Personaliza tu perfil con tu información y preferencias para una mejor experiencia.</p>
-                </div>
-            </div>
-            <div class="paso">
-                <div class="numero-circulo">5</div>
-                <div class="contenido-paso">
-                    <h3>¡Comienza a usar la app!</h3>
-                    <p>Explora todas las funcionalidades y empieza a disfrutar de nuestra aplicación.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Requisitos -->
-    <section class="requisitos">
-        <h2 class="titulo-requisitos">Requisitos del Sistema</h2>
-
-        <div class="seccion-requerimiento minimo">
-            <h3 class="titulo-seccion">Mínimo <span class="icono-pata">🐾</span></h3>
-            <ul class="lista-requisitos">
-                <li>Android 6.0 o superior</li>
-                <li>100 MB de espacio libre</li>
-                <li>Conexión a Internet</li>
-                <li>RAM 2GB mínimo</li>
-            </ul>
-        </div>
-
-        <div class="seccion-requerimiento recomendado">
-            <h3 class="titulo-seccion">Recomendado <span class="icono-pata">🐾</span></h3>
-            <ul class="lista-requisitos">
-                <li>Android 10.0 o superior</li>
-                <li>200 MB de espacio libre</li>
-                <li>WiFi o 4G/5G</li>
-                <li>RAM 4GB o más</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Soporte -->
-    <section class="soporte">
-        <h1 class="titulo-soporte">¿Necesitas ayuda?</h1>
-        <p class="descripcion-soporte">
-            Si tienes problemas con la descarga o<br>
-            instalación, nuestro equipo de soporte está<br>
-            listo para ayudarte
-        </p>
-        <div class="boton-contenedor">
-            <a href="soporte.html" class="boton-soporte">Contactar Soporte</a>
-        </div>
-    </section>
-
     <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-contenido">
-            <div class="seccion-enlaces">
-                <h3 class="titulo-seccion">Enlaces Rápidos</h3>
-                <ul class="lista-enlaces">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="equipo.html">Equipo</a></li>
-                    <li><a href="soporte.html">Soporte</a></li>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="../html/nosotros.html">Nosotros</a></li>
+                    <li><a href="../html/equipo.html">Equipo</a></li>
+                    <li><a href="../html/soporte.html">Soporte</a></li>
                 </ul>
             </div>
 
-            <div class="seccion-contacto">
-                <h3 class="titulo-seccion">Contacto</h3>
-                <div class="info-contacto">
-                    <p>Email <span class="pata">🐾</span> Ubimarketsv@gmail.com</p>
-                    <p>Teléfono <span class="pata">🐾</span> +503 6823-2112</p>
-                </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p>Email 🐾 <a href="mailto:Ubimarketsv@gmail.com">Ubimarketsv@gmail.com</a></p>
+                <p>Teléfono 🐾 <a href="tel:+50368232112">+503 6823-2112</a></p>
             </div>
         </div>
     </footer>
+
+    <script>
+        const btn = document.getElementById('hamburger-btn');
+        const menu = document.getElementById('nav-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            btn.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.remove('active');
+                btn.classList.remove('active');
+            });
+        });
+    </script>
 </body>
 </html>
